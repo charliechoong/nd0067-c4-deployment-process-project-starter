@@ -1,5 +1,8 @@
 # Hosting a Full-Stack Application
 
+## Description
+Udagram is deployed using Circle CI. Documentations can be found in **udagram/documents** folder.
+Link to App: ...
 
 ---
 
