@@ -2,7 +2,7 @@
 
 ## Description
 Udagram is deployed using Circle CI. Documentations can be found in **udagram/documents** folder.
-Link to App: ...
+Link to App: https://mybucketlist-98176714.s3.amazonaws.com/
 
 ---
 
