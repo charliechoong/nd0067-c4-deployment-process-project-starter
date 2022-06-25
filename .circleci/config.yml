@@ -29,13 +29,13 @@ jobs:
           name: Install API Dependencies
           command: |
            echo "Install dependencies in the the backend API  "
-	   npm run backend:install
+            npm run backend:install
       # TODO: Lint the frontend
       - run:
           name: Front-End Lint
           command: |
             echo "TODO: Lint the frontend"
-            npm run frontend:lint
+             npm run frontend:lint
       # TODO: Build the frontend app
       - run:
           name: Front-End Build
@@ -65,7 +65,7 @@ jobs:
           command: |
             echo "# TODO: Install, build, deploy in both apps"
             npm run frontend:deploy
-	    npm run backend:deploy
+            npm run backend:deploy
 workflows:
   udagram:
     jobs:
