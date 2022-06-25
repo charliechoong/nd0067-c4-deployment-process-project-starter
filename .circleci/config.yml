@@ -47,7 +47,7 @@ jobs:
           name: API Build
           command: |
             echo "TODO: Build the backend API"
-            npm run backend:build
+            npm run api:build
   # deploy step will run only after manual approval
   deploy:
     docker:
@@ -65,7 +65,7 @@ jobs:
           command: |
             echo "# TODO: Install, build, deploy in both apps"
             npm run frontend:deploy
-            npm run backend:deploy
+            npm run api:deploy
 workflows:
   udagram:
     jobs:
